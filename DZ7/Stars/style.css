@@ -1,0 +1,15 @@
+.star {
+  float: right;
+  background: url(/Front-end-basic/DZ7/Stars/images/star0.png) left;
+  width: 75px;
+  height: 75px;
+}
+
+.star:hover ~ .star,
+.star:hover {
+  background: url(/Front-end-basic/DZ7/Stars/images/star1.png);
+}
+#stars {
+  margin: 50px auto;
+  position: absolute;
+}
