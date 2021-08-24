@@ -1,0 +1,39 @@
+/*В 1 способе ссылки расположены в строку, потому что отображаются как строчный элемент*/
+
+
+ul.links_1 {
+    margin: 0;
+    padding: 4px;
+  }
+  ul.links_1 li {
+    display: inline; 
+    margin-right: 5px;
+    border-right: 3px solid red;
+    padding: 3px 10px 0px 0px;
+  }
+
+
+  /*Во 2-м способе ссылки расположены в строку, потому что отображаются как плавающими элементами*/
+
+  ul.links_2 {
+    list-style: none;
+    margin: 0;
+    padding: 4px;
+  }
+  ul.links_2 li 
+  {
+    float: left; 
+  }
+  ul.links_2 a {
+    display: block;
+    padding-right: 11px;
+    margin-right: 8px;
+    border-right: 3px solid red;
+  }
+  
+  a:link {
+    color: green;
+  }
+  a:hover {
+    color: red;
+  }
