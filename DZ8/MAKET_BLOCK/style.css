@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+h1,h2{
+    margin: 0px;
+    line-height: 100%;
+}
+a{  
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+@media all  and (min-width: 1200px) {
+.header
+{
+    text-align: center;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.menu{
+    width: 200px;
+    float: left; 
+    background:black;
+}
+.content {
+    margin-right: 5px;
+    margin-left: 200px;
+    background-color:rgb(255, 255, 255);
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.footter{
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.image{
+    float: left;
+}
+}
+@media all and (min-width: 800px) {
+    .header
+    {
+        text-align: center;
+        padding: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .menu{
+        width: 200px;
+        float: left; 
+        background:rgb(0, 0, 0);
+    }
+    .content {
+        margin-right: 5px;
+        margin-left: 200px;
+        background-color:rgb(255, 255, 255);
+        font-size: 24px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 0, 0);
+    }
+    
+    .footter{
+        text-align: center;
+        margin: 0px;
+        padding: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .image{
+        float: left;
+    }
+    }
+    @media all and (max-width: 1200px) and (min-width: 800px) { 
+        .header  {
+            text-align: center;
+            padding: 15px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+        }
+        .menu{
+            width: 200px;
+            height: 470px;
+            background:rgb(21, 42, 97);
+        }
+        .content {
+            margin-right: 5px;
+            margin-left: 200px;
+            background-color:rgb(197, 197, 197);
+            font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+        .content {
+            margin-left: 10px;
+            background-color: rgb(10, 14, 46);
+            font-size: 18px;
+            font-family: Pattaya;
+            color: blanchedalmond;
+          }
+        .footter{
+            text-align: center;
+            margin: 0px;
+            padding: 15px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+        }
+        .image{
+            float: left;
+        }
+        }
