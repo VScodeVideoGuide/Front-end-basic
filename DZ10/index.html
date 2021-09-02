@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма</title>
+</head>
+
+<body>
+    <form action="https://getform.io/f/4804f88e-b451-46bf-a962-6522d552bb0c" method="POST"
+        enctype="multipart/form-data">
+        <h1 style="text-align: center;"><b>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</b></h1>
+        <fieldset>
+                <span><b>Название статьи: </b><input type="text" maxlength="25" name="title" value="" /></span>
+          </fieldset>
+            <fieldset>
+                <b>Сфера деятельности</b>
+            <select name="category">
+                <option value="Circuit technology">Схемотехника</option>
+                <option value="Robotics">Робототехника</option>
+                <option value="Security">Безопасность</option>
+                <option value="Web-Design">Веб-Дизайн</option>
+                <option value="Testing">Тестирование</option>
+                <option value="Programming">Программирование</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <b>Публикация:</b>
+            <span><input checked type="radio" name="publication" value="site" /> на сайте</span>
+            <span><input type="radio" name="publication" value="magazine" />в журнале</span>
+            <span><input type="radio" name="publication" value="both" />на сайте и в журнале</span>
+        </fieldset>
+        <fieldset>
+            <b>Разрешить комментарии?</b>
+            <input type="checkbox" name="Allow_comments" class="style_for_input">
+        </fieldset>
+        <fieldset>
+            <b>Текст:</b><br>
+            <textarea placeholder="текст" name="text"> </textarea></p>
+        </fieldset>
+        <fieldset>
+            <label>
+              <b>Фото</b><br>
+              <input type="file"name="myphoto"><br>
+          </fieldset>  
+        
+          <p><input type="submit" value="Опубликовать"></p>  
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+p {
+  padding: 0px;
+  margin: 2px;
+  margin-left: 2px;
+}
+
+input[type="text"],
+textarea {
+  width: 50%;
+}
+
+input[type="radio"],
+
+input[type="checkbox"]
+ {
+  vertical-align: middle;
+  margin: 0;
+}
