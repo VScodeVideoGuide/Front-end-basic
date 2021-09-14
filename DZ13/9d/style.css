@@ -1,0 +1,63 @@
+body
+{
+ background-color: blanchedalmond;
+}
+.container:hover {
+	background-color: #220a0a;
+	transition: 1s;
+}
+.item1
+{
+	width: 100px;
+	height: 100px;
+	background-color: #ff0000;
+}
+.item2
+{
+	width: 100px;
+	height: 100px;
+	background-color: #ff0000;
+}.item3
+{
+	width: 100px;
+	height: 100px;
+	background-color: #ff0000;
+}
+.item4
+{
+	width: 100px;
+	height: 100px;
+	background-color: #ff0000;
+}
+.container:hover .svg1 {
+	width: 200px;
+	height: 200px;
+	transition: 3s;
+    margin-left: 1000px;
+	background-color: #ffffff;
+}
+.container:hover .svg2 {
+    width: 200px;
+	height: 200px;
+	border-radius: 120px;
+    margin-left: 500px;
+    margin-top: 200px;
+	transition: 2s;
+	background-color: #05477e;
+}
+.container:hover .svg4 {
+    width: 50px;
+	height: 50px;
+	border: cyan solid 10px;
+    margin-left: 500px;
+    margin-top: 200px;
+	transition: 2s;
+	background-color: #05477e;
+}
+.container:hover .svg3 {
+    margin-top: -300px;
+    margin-left: 300px;
+	transform: skew(20deg);
+	transition: 1s;
+	background-color: #7e4d04;
+}
