@@ -1,9 +1,9 @@
-.svg__item rect:hover,
-.svg__item circle:hover,
-.svg__item path:hover {
+.svg_item rect:hover,
+.svg_item circle:hover,
+.svg_item path:hover {
 	fill: rgb(131, 63, 0);
 	height: 100px;
   stroke: aliceblue;
 	stroke-width: 5px;
-	transition: 0.7s;
+	transition: 1s;
 }
