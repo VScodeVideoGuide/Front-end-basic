@@ -1,0 +1,37 @@
+.header {
+  color: rgb(255, 255, 255);
+  order: 1;
+}
+
+.main {
+  width: 100%;
+}
+
+.image {
+  order: 5;
+  float: none;
+  width: 100%;
+}
+
+.main {
+  order: 3;
+}
+.link_section {
+  width: 100%;
+  padding: 0px;
+  background: rgb(10, 14, 46);
+  order: 2;
+}
+.link_section {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+.footter {
+  order: 4;
+}
