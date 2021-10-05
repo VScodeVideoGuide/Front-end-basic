@@ -1,0 +1,16 @@
+.svg__item {
+	width: 800px;
+	margin: 0 auto;
+	background-color:#03fc98;
+}
+.svg__item:hover {
+	background-color: #03d3fc;
+}
+.svg__item rect:hover,
+.svg__item path:hover {
+	fill: cornflowerblue;
+	height: 85px;
+	stroke: #03fc98;
+	stroke-width: 15px;
+	transition: 0.7s;
+}

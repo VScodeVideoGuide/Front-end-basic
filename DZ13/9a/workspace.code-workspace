@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\teamwork\\TestTeamWork"
+		},
+		{
+			"path": "..\\..\\..\\LabaProjject"
+		},
+		{
+			"path": "E:\\nodeJS"
+		},
+		{
+			"path": "..\\..\\..\\Проект Диплом"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Dom8"
+	}
+}

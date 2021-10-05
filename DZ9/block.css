@@ -1,0 +1,10 @@
+.hanging_block{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(8, 168, 69);
+    border: rgb(0, 0, 0) 3px dotted;
+    position: fixed;
+    text-align:center;
+    top: 15px;
+    right: 25px
+  }

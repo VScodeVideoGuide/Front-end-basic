@@ -67,12 +67,12 @@ body
 	transition: 1s;
 	background-color: #7e4d04;
 }
-.svg5 {
+.container:hover.svg5 {
     transition: all 3s;
-  animation: rotate 3s linear infinite; 
-}
+    animation: rotate 3s linear infinite;
 @keyframes rotate {
     from {
       transform: rotate(360deg);
     }
   }
+}

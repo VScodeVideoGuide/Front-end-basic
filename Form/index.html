@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма</title>
+</head>
+
+<body>
+    <form action="https://getform.io/f/4804f88e-b451-46bf-a962-6522d552bb0c" method="POST"
+        enctype="multipart/form-data">
+        <h1 style="text-align: center;"><b>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</b></h1>
+        <fieldset>
+            <label>Укажите свое фото для резюме </label><br><br>
+              <input type="file"name="myphoto"><br>
+          </fieldset>  
+          <fieldset>   
+              <label>Имя<br>
+                <input required type="text" name="Arseniy"> </label><br>
+            <label>Фамилия<br>
+              <input required type="text" name="Boytsov"> </label><br>   
+              <label>Отчество<br>
+                <input required type="text" name="Boytsov"> </label><br> 
+          </fieldset>
+          <fieldset><label>Адрес электронной почты:</label><br>
+            <input required type="text" name="arsbov@gmail.com"> </label><br></fieldset>
+            <fieldset>
+                <fieldset><label>Телефон:</label><br>
+                    <input required type="text" name="+375296315150"> </label><br></fieldset>
+                    <fieldset>
+                <label>Сфера деятельности></label>
+            <select name="category">
+                <option value="Circuit technology">Схемотехника</option>
+                <option value="Robotics">Робототехника</option>
+                <option value="Security">Безопасность</option>
+                <option value="Web-Design">Веб-Дизайн</option>
+                <option value="Testing">Тестирование</option>
+                <option value="Programming">Программирование</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label>Отправлять сообщения на почту о согласии взять Вас на работу?</label>
+            <input type="checkbox" name="Allow_sending_messages_to_you" class="style_for_input">
+        </fieldset>
+        <fieldset>
+            Напишите какими навыками вы владеете:<br>
+            <textarea placeholder="текст" name="text"> </textarea></p>
+        </fieldset>
+            <fieldset>
+                <label>Наличие военного билета?</label><br>
+                <span><input checked type="radio" name="bilet" value="Yes" /> Да</span><br>
+                <span><input type="radio" name="bilet" value="No" />Нет</span><br>
+              </fieldset>
+            
+        <fieldset>
+            <b>Расскажите о себе:</b><br>
+            <textarea placeholder="текст" name="text"> </textarea></p>
+        </fieldset>
+          <p><input spellcheck="false" type="submit" value="Опубликовать"></p>  
+    </form>
+</body>
+</html>
